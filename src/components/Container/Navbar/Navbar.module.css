@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8f8f8f;
+  height: 60px;
+}
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  height: 10px;
+}
+
+.navbar > ul > li {
+  cursor: pointer;
+  user-select: none;
+}
+
+.search {
+  padding-right: 20px;
+}
